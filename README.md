@@ -1,6 +1,6 @@
 # PowerShell-Scripts · SysDaemon.dev
 
-Praxiserprobte PowerShell-Skripte aus dem Enterprise-IT-Alltag: Intune, SCCM, PSADT, Windows Server, Active Directory und Support-Automatisierung.
+Praxiserprobte PowerShell-Skripte aus dem Enterprise/KMU-IT-Alltag: Intune, SCCM, PSADT, Windows Server, Active Directory und Support-Automatisierung.
 
 ## Aufbau
 - Jedes Skript liegt als `.ps1`-Datei im Repository.
