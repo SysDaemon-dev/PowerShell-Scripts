@@ -26,11 +26,11 @@
     Optional string. The absolute file path to export the results as a CSV file.
 
 .EXAMPLE
-    .\Clear-ZoneIdentifier.ps1 -LiteralPath "D:\ews" -Recurse -ReportOnly
+    .\Clear-ZoneIdentifier.ps1 -LiteralPath "D:\temp" -Recurse -ReportOnly
     Scans the directory structure and outputs a list of blocked files to the console without modifying them.
 
 .EXAMPLE
-    .\Clear-ZoneIdentifier.ps1 -LiteralPath "D:\ews" -Recurse -ExportCsvPath "C:\Temp\MotW_Report.csv"
+    .\Clear-ZoneIdentifier.ps1 -LiteralPath "D:\temp" -Recurse -ExportCsvPath "C:\Temp\MotW_Report.csv"
     Scans, unblocks files permanently, and writes a detailed audit report to the specified CSV file.
 
 .NOTES
