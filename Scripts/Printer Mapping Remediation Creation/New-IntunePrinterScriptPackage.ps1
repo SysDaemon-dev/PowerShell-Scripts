@@ -10,8 +10,8 @@ and automatically generates the corresponding Detection and Remediation scripts.
 Key Features:
 - Bulk Processing: Reads line-by-line from a source text file.
 - Sub-Printer Merging: Features a toggle ($mergeSubPrinters) to automatically group 
-  sub-printers (e.g., 050-PRT-102-Farbe) into the same script array as their parent 
-  printer (e.g., 050-PRT-102), reducing script sprawl in Intune.
+  sub-printers (e.g., PRT-102-Farbe) into the same script array as their parent 
+  printer (e.g., PRT-102), reducing script sprawl in Intune.
 - Dynamic Substitution: Automatically builds the PowerShell array and replaces the 
   %PRINTER_ARRAY% placeholder within the predefined templates.
 - Organized Output: Creates a dedicated subfolder for each processed printer (or base 
